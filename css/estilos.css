@@ -203,6 +203,18 @@ img {
   font-weight: normal;
 }
 
+.servicios__caja1 {
+  background-color: #a2c1f7;
+}
+
+.servicios__caja2 {
+  background-color: #e4bbff;
+}
+
+.servicios__caja3 {
+  background-color: #74fd86;
+}
+
 .cajaItems:hover {
   -webkit-transform: scale(1.2, 1.2);
           transform: scale(1.2, 1.2);
