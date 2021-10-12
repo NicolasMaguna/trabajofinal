@@ -1,0 +1,85 @@
+$blue:#123070;
+$white: white;
+.seccionOscura{
+	&__titulo{
+		font-family: 'Russo One', sans-serif;
+		color: $white;
+		font-size: 1.5em;
+		font-weight: normal;
+		text-decoration: underline;
+        text-transform: uppercase;
+		margin-bottom: 0px;
+	}
+	&__caja1{
+		p{
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.05em;
+			color: $white;
+			margin: 10px 0px 1px 0px;
+		}
+	}
+	&__caja2{
+		img{
+			max-width: 100%;
+		}
+	}
+}
+.beneficios{
+    &__titulo{
+        font-family: 'Russo One', sans-serif;
+		color: $blue;
+		font-size: 1.4em;
+		font-weight: normal;
+		text-decoration: underline;
+        text-transform: uppercase;
+		margin-bottom: 30px;
+    }
+    &__tarjeta {
+        min-height: 100%;
+    }
+    &__ventaja{
+        font-family: 'Poppins', sans-serif;
+		color: $blue;
+		font-size: 1.4em;
+		font-weight: normal;
+		margin-bottom: 15px;
+    }
+    &__descripcion{
+        font-family: 'Poppins', sans-serif;
+		color: $blue;
+		font-size: 1.02em;
+		font-weight: normal;
+		margin-bottom: 0px;
+    }
+    &__tarjeta:hover{
+        background-color: $blue;
+    }
+    &__tarjeta:hover p{
+        color:white;
+    } 
+}
+.preguntas{
+    &__titulo{
+        font-family: 'Russo One', sans-serif;
+		color:$white;
+		font-size: 1.4em;
+		font-weight: normal;
+		text-decoration: underline;
+        text-transform: uppercase;
+		margin-bottom: 30px;
+    }
+    &__pregunta{
+        font-family: 'Poppins', sans-serif;
+		color: $blue;
+		font-size: 1.1em;
+		font-weight: normal;
+		margin-bottom: 0px;
+    }
+    &__respuesta{
+        font-family: 'Poppins', sans-serif;
+		color: $blue;
+		font-size: 1.02em;
+		font-weight: normal;
+		margin-bottom: 0px;
+    }
+}

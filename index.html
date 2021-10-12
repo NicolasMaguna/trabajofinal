@@ -3,150 +3,192 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Nuestros servicios te ayudan a vender tus productos o servicios por internet, evitarás perder tiempo intentando atraer clientes y te permitirán aumentar tus ganancias.">
+   	<meta name="keywords"  content="Diseñador Web, página web, tienda online, google ads.">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-	<title>Inicio</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<title>Diseñador Web</title>
 </head>
 <body>
 	<!-- Menu -->
-	<div class="container menu"> 
-		<div class="row">
-			<img src="media/logo.png" alt="diseñador web" class="menu__logo">
-		  	<ul class="nav">
-				<li class="btn btn-primary nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-				<li class="btn btn-primary nav-item"><a class="nav-link" href="paginaweb.html">Página Web</a></li>
-				<li class="btn btn-primary nav-item"><a class="nav-link" href="tiendaonline.html">Tienda Online</a></li>
-				<li class="btn btn-primary nav-item"><a class="nav-link" href="googleads.html">Google Ads</a></li>
-				<li class="btn btn-primary nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-		  	</ul>
-		</div>	
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-light px-3 py-3">
+			<div class="container-fluid">
+				<img src="media/logo.png" alt="diseñador web" class="navbar-brand">
+				<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuNavegacion">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div id="menuNavegacion" class="collapse navbar-collapse justify-content-end">
+					<ul class="navbar-nav ms-3">
+						<li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+						<li class="nav-item"><a class="nav-link" href="paginaweb.html">Página web</a></li>
+						<li class="nav-item"><a class="nav-link" href="tiendaonline.html">Tienda online</a></li>
+						<li class="nav-item"><a class="nav-link" href="googleads.html">Google Ads</a></li>
+						<li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 	</div>
 	<!-- portada -->
-	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-		<ol class="carousel-indicators">
-		  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-		  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-		  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-		</ol>
-		<div class="carousel-inner">
-			  <div class="carousel-item active">
-				<img src="media/portada.jpg" class="d-block w-100" alt="Diseño de página web">
-				<div class="carousel-caption d-none d-md-block fondoOpacidad">
-				  <h5>Diseñador web</h5>
-				  <p class="portada__descripcion">Si estás acá es porque entiendes que una página web es más que la cara visible de tu empresa en internet, es el sitio donde recibirás el tráfico web generado con las estrategias de marketing digital para convertirlo en clientes</p>
-			  </div>
-		  </div>
-		  <div class="carousel-item">
-				<img src="media/portada2.jpg" class="d-block w-100" alt="Plan de marketing digital">
-				<div class="carousel-caption d-none d-md-block fondoOpacidad">
-					<h5>Marketing Digital</h5>
-				    <p class="portada__descripcion">¿Necesitás visitas para tu sitio web? publicitamos tu negocio en Google</p>
-			  </div>
-		  </div>
-		  <div class="carousel-item">
-				<img src="media/portada3.jpg" class="d-block w-100" alt="Plan de marketing digital">
-				<div class="carousel-caption d-none d-md-block fondoOpacidad">
-				  <h5>Plan de acción</h5>
-				  <p class="portada__descripcion">Analizamos los resultados para optimizar tu estrategia digital</p>
-			  </div>
-		  </div>		
+	<div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+		  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
 		</div>
-		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		<div class="carousel-inner">
+		  <div class="carousel-item active" data-bs-interval="5000">
+			<img src="media/portada1.jpg" class="d-block w-100" alt="Diseñador web">
+			<div class="carousel-caption d-none d-md-block fondoOpacidad">
+			  <h1>Diseñador web</h1>
+			  <p>Te ayudamos a vender tus productos o servicios por internet, con una página web pensada para tu cliente ideal</p>
+			</div>
+		  </div>
+		  <div class="carousel-item" data-bs-interval="4000">
+			<img src="media/portada2.jpg" class="d-block w-100" alt="Marketing digital">
+			<div class="carousel-caption d-none d-md-block fondoOpacidad">
+			  <h2>Marketing Digital</h2>
+			  <p>¿Necesitás vender tus servicios? publicitamos tu negocio en el buscador de Google</p>
+			</div>
+		  </div>
+		  <div class="carousel-item" data-bs-interval="4000">
+			<img src="media/portada3.jpg" class="d-block w-100" alt="Plan marketing digital">
+			<div class="carousel-caption d-none d-md-block fondoOpacidad">
+			  <h2>Marketing Digital</h2>
+			  <p>Diseñamos la estrategia de publicidad online para tu negocio</p>
+			</div>
+		  </div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
 		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		  <span class="sr-only">Anterior</span>
-		</a>
-		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		  <span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
 		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-		  <span class="sr-only">Siguiente</span>
-		</a>
+		  <span class="visually-hidden">Next</span>
+		</button>
 	</div>
 	<!-- Servicios -->
-	<div class="container servicios"> 
+	<div class="container servicios py-5"> 
 		<div class="row">
 			<p class="servicios__titulo">SERVICIOS</p>
 		</div>
 		<div class="row">
-			<div class="col- col-sm-6 col-lg-4 servicios__caja1">
-				<img src="media/paginaweb.jpg" alt="">
-				<p class="servicios__tituloServicio">Página web</p>
-				<p>Podrás tener tu propia página web para mostrar tus productos y/o servicios en internet</p>
+			<div class="col- col-sm-6 col-lg-4 p-2">
+				<div class="servicio1 p-3 shadow">
+					<img src="media/paginaweb.jpg" alt="Página web">
+					<h2 class="servicios__tituloServicio">Página web</h2>
+					<p>Podrás tener tu propia página web para mostrar tus productos y/o servicios en internet</p>
+				</div>
 			</div>
-			<div class="col- col-sm-6 col-lg-4 servicios__caja2">
-				<img src="media/tiendaonline.jpg" alt="">
-				<p class="servicios__tituloServicio">Tienda online</p>
-				<p>Contarás con un panel administrativo, donde podrás cargar los productos y recibir las ordenes de compras</p>
+			<div class="col- col-sm-6 col-lg-4 p-2">
+				<div class="servicio2 p-3 shadow">
+					<img src="media/tiendaonline.jpg" alt="Tienda online">
+					<h2 class="servicios__tituloServicio">Tienda online</h2>
+					<p>Contarás con un panel para administrar los productos y pedidos de tus clientes</p>
+				</div>
 			</div>
-			<div class="col- col-sm-6 col-lg-4 servicios__caja3">
-				<img src="media/googleads.jpg" alt="">
-				<p class="servicios__tituloServicio">Google ads</p>
-				<p>Descripción: Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Necessitatibus natus officia doloremque quasi quo, quis quas numquam in maxime distinctio sapiente qui. Vitae quis recusandae, maiores sapiente autem repudiandae dicta!</p>
+			<div class="col- col-sm-6 col-lg-4 p-2">
+				<div class="servicio3-extend p-3 shadow">
+					<img src="media/googleads.jpg" alt="Google Ads">
+					<h2 class="servicios__tituloServicio">Google ads</h2>
+					<p>Posicionamos tu página web en los primeros lugares del buscador de Google.</p>
+				</div>
 			</div>
 		</div>
 	</div>
 	<!-- Quien soy -->
-	<div class="container-fluid quienSoy">
+	<div class="container-fluid quienSoy degradeOscuro py-5">
 		<div class="container">
 			<div class="row">
 			<p class="quienSoy__titulo">¿QUIÉN SOY?</p>
 			</div>
 			<div class="row">
 				<div class="col- col-sm-8 col-lg-8 quienSoy__caja1">
-					<p>Soy Nicolás diseñador web, descubrí el mundo de ser emprendedor hace unos años y me reinventé completamente. Así descubrí en el andar, mi misión de acompañar a otros emprendedores a lograr sus objetivos, sin que el camino tenga que ser cuesta arriba ni tan solitario.</p>
-					<p>Hoy trabajo con emprendedoros increíbles con ganas de crecer, guiándolos a elegir las mejores estrategias y armar el plan para llevar su negocio al próximo nivel.</p>
+					<p>Soy Nicolás diseñador web, descubrí el mundo de ser emprendedor hace unos años y me reinventé completamente. Así descubrí en el andar, mi misión de acompañar a otros emprendedores a lograr sus objetivos, sin que el camino tenga tan solitario.</p>
+					<p>Hoy trabajo con emprendedores increíbles con ganas de crecer, guiándolos a elegir las mejores estrategias y armar el plan digital para llevar su negocio al próximo nivel.</p>
+					<p class="quienSoy__subtitulo">Habilidades</p>
+					<p>HTML5</p>
+					<div class="progress">
+						<div class="progress-bar bg-danger" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+					</div>
+					<p>CSS3</p>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 86%;" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">86%</div>
+					</div>
+					<p>JS</p>
+					<div class="progress">
+						<div class="progress-bar bg-warning" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+					</div>
+					<p>WORDPRESS</p>
+					<div class="progress mb-5">
+						<div class="progress-bar bg-dark" role="progressbar" style="width: 92%;" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">92%</div>
+					</div>
 				</div>
 				<div class="col- col-sm-4 col-lg-4 quienSoy__caja2">
-					<img src="media/nico.jpg" alt="">
+					<img class="img-thumbnail" src="media/nico.jpg" alt="diseñador web">
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- Testimonios -->
-	<div class="container testimonios">
-		<div class="row">
-			<p class="testimonios__titulo">TESTIMONIOS</p>
-		</div>
-		<div class="row">
-			<p>¿Qué dicen algunos de mis clientes?</p>
-		</div>
-		<div class="row">
-			<div class="col- col-sm-6 col-lg-4">
-				<img class="rounded-circle fotoTestimonio" src="media/testimonios1.jpg" alt="">
-				<p>Maximiliano Cosenza</p>
-				<p>Excelente servicio y predisposición de parte de Nicolás para atender cada una de nuestras solicitudes. Además respondió rápido y acorde a los requerimientos de nuestro producto. La página quedó buenísima.</p>
+	<div class="container testimonios py-5">
+		<div class="container">
+			<div class="row">
+				<p class="testimonios__titulo">TESTIMONIOS</p>
 			</div>
-			<div class="col- col-sm-6 col-lg-4">
-				<img class="rounded-circle fotoTestimonio" src="media/testimonios2.jpg" alt="">
-				<p>Lucas Díaz Prieto</p>
-				<p>Nicolás supo resolver con celeridad y profesionalismo todas nuestras inquietudes. Su predisposición nos ha ayudado a resolver algunas dificultades que se nos presentaron como empresa en cuanto a web y aplicaciones.
-				Acudimos a él ante una necesidad urgente y sin importar tiempos, lo resolvió manteniéndonos al tanto en todo momento y explicándonos temas que nos excedían a nosotros.</p>
+			<div class="row">
+				<p class="testimonios__subtitulo">¿Qué dicen algunos de mis clientes?</p>
 			</div>
-			<div class="col- col-sm-6 col-lg-4">
-				<img class="rounded-circle fotoTestimonio" src="media/testimonios3.jpg" alt="">
-				<p>María Belén Valladares</p>
-				<p>Nicolás fue muy profesional en todo. No solo desarrolló mi sitio web tal como se lo había encomendado sino que aportó con su creatividad detalles que mejoraron lo que yo había imaginado.</p>
+		</div>
+		<div class="container text-center">
+			<div class="row" >
+				<div class="col- col-sm-6 col-lg-4 p-2">
+					<div class="shadow p-4 testimonios__tarjeta">
+						<img class="rounded-circle testimonios__foto" src="media/testimonios1.jpg" alt="Maximiliano Cosenza">
+						<p class="testimonios__nombre">Maximiliano Cosenza</p>
+						<p>Excelente servicio y predisposición de parte de Nicolás para atender cada una de nuestras solicitudes. Además respondió rápido y acorde a los requerimientos de nuestro producto. La página quedó buenísima.</p>
+					</div>
+				</div>
+				<div class="col- col-sm-6 col-lg-4 p-2">
+					<div class="shadow p-4 testimonios__tarjeta">
+						<img class="rounded-circle testimonios__foto" src="media/testimonios2.jpg" alt="Lucas Díaz Prieto">
+						<p class="testimonios__nombre">Lucas Díaz Prieto</p>
+						<p>Nicolás supo resolver con celeridad y profesionalismo todas nuestras inquietudes. Su predisposición nos ha ayudado a resolver algunas dificultades que se nos presentaron como empresa en cuanto a web y aplicaciones.
+						Acudimos a él ante una necesidad urgente y sin importar tiempos, lo resolvió manteniéndonos al tanto en todo momento y explicándonos temas que nos excedían a nosotros.</p>
+					</div>
+				</div>
+				<div class="col- col-sm-6 col-lg-4 p-2">
+					<div class="shadow p-4 testimonios__tarjeta">
+						<img class="rounded-circle testimonios__foto" src="media/testimonios3.jpg" alt="Maria Belen Valladares">
+						<p class="testimonios__nombre">María Belén Valladares</p>
+						<p>Nicolás fue muy profesional en todo. No solo desarrolló mi sitio web tal como se lo había encomendado sino que aportó con su creatividad detalles que mejoraron lo que yo había imaginado.</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 	<!-- Botón flotante -->
 	<div class="botonFlotante">
-		<img src="media/whatsapp.png" alt="whatsapp">
+		<a href="https://wa.link/372twu" target="_blank"><img src="media/whatsapp.png" alt="whatsapp"></a>	
 	</div>
 	<!-- Pie de página -->
-	<div class="container-fluid pie">
-		<div  class="container">
-			<div class="row">
-				<div class="col-6 col-sm-8 col-lg-10">
-					<p>Diseñó Nicolás Magunacelaya</p>
+	<div class="container-fluid pie bg-black p-3">
+		<footer class="container">
+				<div class="row align-items-center">
+					<div class="col-6 col-sm-8 col-lg-10">
+						<p class="text-light mb-0">Diseñó Nicolás Magunacelaya</p>
+					</div>
+					<div class="col-6 col-sm-4 col-lg-2">
+						<a href="https://www.linkedin.com/" target="_blank"><img src="media/linkedin.png" alt="linkedin"/></a>
+						<a href="https://www.instagram.com/" target="_blank"><img src="media/instagram.png" alt="instagram"/></a>
+						<a href="https://www.youtube.com/" target="_blank"><img src="media/youtube.png" alt="youtube"/></a>
+					</div>
 				</div>
-				<div class="col-6 col-sm-4 col-lg-2">
-					<a href=""><img src="media/linkedin.png" alt="linkedin"/></a>
-					<a href=""><img src="media/instagram.png" alt="instagram"/></a>
-					<a href=""><img src="media/youtube.png" alt="youtube"/></a>
-				</div>
-			</div>
-		</div>	
+		</footer>
 	</div>
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>

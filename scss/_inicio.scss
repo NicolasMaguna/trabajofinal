@@ -1,0 +1,146 @@
+/* menu */
+
+/* portada */
+.portada {
+	background-image: url("../media/portada.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 60px 40px;
+	&__titulo{
+		font-family: 'Russo One', sans-serif;
+		color: white;
+		font-size: 2em;
+		font-weight: normal;
+		text-transform: uppercase;
+		line-height: 1.2em;
+		margin-bottom: 15px;
+	}
+	&__descripcion {
+		color: white;
+	}
+}
+/* servicios */
+$blue:#123070;
+$relleno:15px;
+.servicios{
+	padding: ($relleno)*2;
+    img {
+        background-color: $blue;
+        height: auto;
+        width: 100%;
+		margin-bottom: 15px;
+    }
+        p{
+            max-width: auto;
+        }
+    &__titulo{
+        font-family: 'Russo One', sans-serif;
+        color: $blue;
+        font-size: 1.5em;
+        font-weight: normal;
+        text-decoration: underline;
+        margin-bottom: 15px;
+    }
+    &__tituloServicio{
+        font-family: 'Russo One', sans-serif;
+        color: $blue;
+        font-size: 1.4em;
+        font-weight: normal;
+    }
+}
+@mixin servicio($fondo){
+    background-color: $fondo;
+}
+.servicio1 {
+    @include servicio (#d6e9f7);
+	min-height: 100%;   
+}
+.servicio2 {
+    @include servicio (#fdf0d4);
+	min-height: 100%;   
+}
+.servicio3 {
+    @include servicio (#c894ca)   
+}
+.servicio3-extend {
+    @extend .servicio3;
+    @include servicio (#ffe4e4);
+	min-height: 100%; 
+}
+/* quien soy */
+.quienSoy{
+	&__titulo{
+		font-family: 'Russo One', sans-serif;
+		color: white;
+		font-size: 1.5em;
+		font-weight: normal;
+		text-decoration: underline;
+		margin-bottom: 0px;
+	}
+	&__subtitulo{
+		font-size: 1.4em;
+		font-weight: 600;
+	}
+	&__caja1{
+	
+		p{
+			color: white;
+			margin: 10px 0px 1px 0px;
+		}
+	}
+	&__caja2{
+		img{
+			max-width: 100%;
+		}
+	}
+}
+/* servicios */
+.testimonios{
+    &__titulo{
+        font-family: 'Russo One', sans-serif;
+        color: $blue;
+        font-size: 1.5em;
+        font-weight: normal;
+        text-decoration: underline;
+        margin-bottom: 15px;
+    }
+    &__subtitulo{
+        font-family: 'Russo One', sans-serif;
+        color: $blue;
+        font-size: 1.4em;
+        font-weight: normal;
+    }
+	&__foto {
+		width: 200px;
+		margin-bottom: 20px;
+	}
+	&__nombre{
+		font-family: 'Poppins', sans-serif;
+        color: $blue;
+        font-size: 1.2em;
+        font-weight: normal;
+	}
+	&__tarjeta {
+        min-height: 100%;
+    }
+}
+
+/* boton flotante */
+.botonFlotante{
+	width: 60px;
+	height: 60px;
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	z-index: 400;
+    img{
+        width: 60px;
+        height: 60px;
+    }
+}
+/* footer */
+footer img {
+	width: 40px;
+	margin: 1px;
+}
+

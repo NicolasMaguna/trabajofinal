@@ -1,0 +1,52 @@
+$blue:#123070;
+.contacto{
+    &__titulo{
+        font-family: 'Russo One', sans-serif;
+		color: white;
+		font-size: 1.4em;
+		font-weight: normal;
+		text-decoration: underline;
+        text-transform: uppercase;
+    }
+    &__tituloAzul{
+        font-family: 'Russo One', sans-serif;
+		color: $blue;
+		font-size: 1.4em;
+		font-weight: normal;
+		text-decoration: underline;
+        text-transform: uppercase;
+    }
+    &__tarjeta {
+        min-height: 100%;
+        background-color: white;
+    }
+    &__icono{
+        font-family: 'Poppins', sans-serif;
+		color: $blue;
+		font-size: 40px;
+		font-weight: normal;
+		margin-bottom: 10px;
+    }
+    &__subtitulo{
+        font-family: 'Poppins', sans-serif;
+		color: $blue;
+		font-size: 1.2em;
+		font-weight: normal;
+        text-decoration: underline;
+		margin-bottom: 8px;
+    }
+    &__contacto{
+        font-family: 'Poppins', sans-serif;
+		color: $blue;
+		font-size: 1.02em;
+		font-weight: normal;
+		margin-bottom: 0px;
+    }
+    
+    &__tarjeta:hover{
+        background-color: $blue;
+    }
+    &__tarjeta:hover p{
+        color:white;
+    } 
+}
